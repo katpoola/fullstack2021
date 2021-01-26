@@ -6,9 +6,6 @@ const Button = (props) => (
 );
 
 const Statistics = (props) => {
-  if (props == 0) {
-    return <p>No feedback given</p>;
-  }
   return (
     <p>
       {props.text}: {props.value}
